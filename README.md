@@ -28,3 +28,11 @@ $ terraform apply
 ### Verify the provisioning of EKS by login into AWS web console.
 
 ![AWS EKS](https://github.com/rohitvermasrt/backbase-terraform-eks/blob/main/images/eks_cluster.png?raw=true)
+
+```
+To stop the provisioned EKS cluster run
+$ terraform destroy
+
+It will delete all the resources that was created by terraform templates.
+```
+##
