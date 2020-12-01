@@ -1,8 +1,6 @@
 # backbase-terraform-eks
 Terraform templates for provisioning EKS cluster
 
-# Getting Started with EKS
-
 ## Amazon CLI
 
 You will need AWS CLI to configure AWS Secret Key and Access token to be able to run terraform templates to provision resource of AWS.
@@ -29,8 +27,10 @@ $ terraform apply
 
 ![AWS EKS](https://github.com/rohitvermasrt/backbase-terraform-eks/blob/main/images/eks_cluster.png?raw=true)
 
+![AWS EC2 Node](https://github.com/rohitvermasrt/backbase-terraform-eks/blob/main/images/ec2-cluster.png?raw=true)
+
 ```
-To stop the provisioned EKS cluster run
+To stop and destroy the provisioned EKS cluster run
 $ terraform destroy
 
 It will delete all the resources that was created by terraform templates.
