@@ -7,7 +7,7 @@ module "backbase-eks-cluster" {
 
   worker_groups = [
     {
-      instance_type = "t3.small"
+      instance_type = "t2.large"
       asg_min_size  = 1
 	  asg_max_size  = 3
 	  asg_desired_capacity = 1
