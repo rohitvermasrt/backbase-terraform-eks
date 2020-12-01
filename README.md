@@ -9,7 +9,7 @@ You will need AWS CLI to configure AWS Secret Key and Access token to be able to
 
 $ aws configure
 ## Terraform
-'''
+```
 Install terraform to be able to run the terraform templates.
 
 ### Initialize the project, which downloads a plugin that allows Terraform to interact with Docker
@@ -22,7 +22,7 @@ $ terraform plan
 ### Provision the EKS cluster with 'apply'. When Terraform asks you to confirm type 'yes' and press 'ENTER'.
 
 $ terraform apply
-'''
+```
 ![Terraform apply response](https://github.com/rohitvermasrt/backbase-terraform-eks/blob/main/images/tf_apply_response.png?raw=true)
 
 ### Verify the provisioning of EKS by login into AWS web console.
